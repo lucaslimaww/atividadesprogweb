@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Tecno-Vida</title>
+</head>
+<body>
+    <h1>Formulário de Anamnese Digital</h1>
+    
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="name">Nome Completo</label>
+        <input type="text" id="name">
+        <br>
+        <label for="dateBirth">Data de Nascimento</label>
+        <input type="date" id="dateBirth">
+        <br>
+        <label for="gender_male">Masculino</label>
+        <input type="radio" id="gender_male" name="gender">
+        <label for="gender_female">Feminino</label>
+        <input type="radio" id="gender_female" name="gender">
+        <br>
+        <label for="CPF">CPF</label>
+        <input type="number" id="CPF">
+        <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+    </fieldset>
+
+    <fieldset>
+        <legend>Histórico de Saúde</legend>
+        <p>Possuí alguma doença crônica?</p>
+        <label for="disseaseYes">Sim</label>
+        <input type="radio" id="disseaseYes" name="dissease">
+        <label for="disseaseNo">Não</label>
+        <input type="radio" id="disseaseNo" name="dissease">
+        <br>
+        <label for="regularMedicine">Quais medicamentos você usa regularmente?</label>
+        <br>
+        <textarea rows="5" cols="10" id="regularMedicine"></textarea>
+        <br>
+        <label for="smoke">Você fuma?</label>
+        <input type="checkbox" id="smoke">
+        <br>
+        <label for="height">Altura (em cm)</label>
+        <input type="number" id="height">
+        <br>
+        <label for="weight">Peso (em kg)</label>
+        <input type="number" id="weight">
+    </fieldset>
+
+    <fieldset>
+        <legend>Detalhes da Consulta</legend>
+        <label for="consultMotivation">Qual é o principal motivo da sua consulta?</label>
+        <br>
+        <textarea id="consultMotivation" rows="10" cols="10"></textarea>
+        <br>
+        <label for="exercises">Com que frequência você pratica exercícios físicos?</label>
+        <select>
+            
+        </select>
+    </fieldset>
+</body>
+</html>

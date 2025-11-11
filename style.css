@@ -3,6 +3,16 @@ body {
     background-color: rgb(111, 153, 153);
     color: antiquewhite;
 }
+
+.title{
+    text-shadow: 3px 3px 10px black;
+}
+
+.name {
+    text-shadow: 3px 3px 10px black;
+}
+
+
 .title img{
     height: 60px;   
     width: auto;
@@ -15,4 +25,5 @@ body {
 }
 .github {
     font-size: 12px;
+    text-decoration: none;
 }

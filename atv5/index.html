@@ -4,23 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/healthcare.png">
     <title>Fisio+ - Página Inicial</title>
 </head>
 <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
         <h2>
             <img src="/img/fisiomais-logo-removebg-preview.png">
             Fisio+
         </h2>
-    </header>
-    <nav class="cabecalho-nav">
+        <nav class="cabecalho-nav">
         <ul>
-            <li>Página Inicial</li>
-            <li>Sobre</li>
-            <li>Marcar Consulta</li>
-            <li>Contato</li>
+            <li><a href="#cabecalho">Página Inicial</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#marcar-consulta">Marcar Consulta</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </nav>
+    </header>
+    <div class="sobre" id="sobre">
+        <h2>
+            <img src="/img/about-icon.png">
+            Sobre
+        </h2>
+        <br>
+        <article>
+            Na Fisio+, acreditamos que cada pessoa merece viver com conforto, mobilidade e qualidade de vida. 
+            Por isso, unimos conhecimento técnico, atendimento humanizado e tecnologia atualizada para oferecer um cuidado completo no processo de reabilitação e prevenção de lesões.
+            
+            Fundada com o propósito de transformar a experiência em fisioterapia, nossa clínica valoriza o acompanhamento próximo, o respeito ao ritmo de cada paciente e a construção conjunta de resultados reais e duradouros. Cada tratamento é planejado individualmente, considerando necessidades específicas, limitações e objetivos pessoais.
+            Nossa equipe é formada por fisioterapeutas qualificados, dedicados e em constante atualização, prontos para atuar em áreas como ortopedia, neurologia, fisioterapia esportiva, pilates terapêutico e reabilitação funcional. Mais do que tratar sintomas, buscamos entender a causa, orientar hábitos saudáveis e promover autonomia para que você se sinta bem no presente — e preparado para o futuro.
+
+            Na Fisio+, você encontra um ambiente acolhedor, seguro e pensado para proporcionar conforto em cada etapa do processo. Aqui, você não é apenas um paciente: é parte de uma jornada que envolve cuidado, evolução e confiança.
+        </article>
+    </div>
+    <div class="image-section-1">
+        <img src="/img/image-section-1.1.jpg">
+        <img src="/img/image-section-1.2.jpg">
+        <img src="/img/image-section-1.3.jpg">
+    </div>
+    <div class="marcar-consulta" id="marcar-consulta">
+        <h2>
+            <img src="/img/schedule-icon.png">
+            Marcar consulta
+        </h2>
+        <p>Deseja marcar uma consulta? Insira seu e-mail abaixo que iremos enviar os próximos passos para sua renovação!</p>
+        <form>
+            <label for="e-mail">E-mail</label>
+            <input type="email" id="e-mail">
+            <button onclick="alert('Consulte sua caixa de E-mail para prosseguir. Verifique o spam antes de re-solicitar.')">Quero marcar uma consulta</button>
+        </form>
+    </div>
+    <div class="contato" id="contato">
+        <h2>
+            <img src="/img/contact-icon.png">
+            Contato
+        </h2>
+        <p>Para entrar em contato conosco, utilize um dos seguintes meios:</p>
+        <h1 id="contato-instagram">
+            <img src="/img/instagram-icon.png">
+            Instagram: clinica.fisio+
+        </h1>
+        <h1 id="contato-whatsapp">
+            <img src="/img/whatsapp-icon.png">
+            WhatsApp: (87) 9932-5689
+        </h1>
+    </div>
+    <footer id="footer">
+        Esse site é fictício. NÃO ENTRE EM CONTATO COM O NÚMERO DE TELEFONE OU O INSTAGRAM, CASO HOUVER! 
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,151 @@
+/* Página Principal (index.html)*/
+body.index {
+    background-color: rgb(15, 126, 196);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif    ;
+}
+
+.index-list a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.index-list a:hover {
+    color: aliceblue;
+}
+
+.index-list a:visited {
+    color: rgb(241, 241, 241);
+}
+
+.index-list a:active {
+    color: rgb(96, 96, 209);
+}
+
+.title-index {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.title-index img {
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Página "Machu Pichu" (machu_pichu.html) */
+
+body.machu-pichu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 145, 223) ;
+    color: white;
+}
+
+.text-machu-pichu {
+    background-color: rgba(5, 52, 82,0.3);
+}
+
+body.machu-pichu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body.machu-pichu a:hover {
+    color: aliceblue;
+}
+
+body.machu-pichu a:visited {
+    color: rgb(241, 241, 241);
+}
+
+body.machu-pichu a:active {
+    color: rgb(96, 96, 209);
+}
+
+
+/* Página "Fernado de Noronha" (fernando-de-noronha.html)*/
+
+body.fernando-de-noronha {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 145, 223) ;
+    color: white;
+}
+
+.text-fernando-de-noronha {
+    background-color: rgba(5, 52, 82,0.3);
+}
+
+body.fernando-de-noronha a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body.fernando-de-noronha a:hover {
+    color: aliceblue;
+}
+
+body.fernando-de-noronha a:visited {
+    color: rgb(241, 241, 241);
+}
+
+body.fernando-de-noronha a:active {
+    color: rgb(96, 96, 209);
+}
+
+/* Página "Walt World Disney" (walt_world_disney.html)*/
+
+body.walt-world-disney {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 145, 223) ;
+    color: white;
+}
+
+.text-walt-world-disney {
+    background-color: rgba(5, 52, 82,0.3);
+}
+
+body.walt-world-disney a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body.walt-world-disney a:hover {
+    color: aliceblue;
+}
+
+body.walt-world-disney a:visited {
+    color: rgb(241, 241, 241);
+}
+
+body.walt-world-disney a:active {
+    color: rgb(96, 96, 209);
+}
+
+/* Página "Dubai" (dubai.html)*/
+body.dubai {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(19, 145, 223) ;
+    color: white;
+}
+
+.text-dubai {
+    background-color: rgba(5, 52, 82,0.3);
+}
+
+body.dubai a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body.dubai a:hover {
+    color: aliceblue;
+}
+
+body.dubai a:visited {
+    color: rgb(241, 241, 241);
+}
+
+body.dubai a:active {
+    color: rgb(96, 96, 209);
+}

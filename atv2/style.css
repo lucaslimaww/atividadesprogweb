@@ -1,0 +1,21 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(229.03, 229.03, 229.03);
+}
+
+.title {
+    text-shadow: 3px 3px 15 px black;
+}
+
+.placar {
+    border-style: dashed;
+    color: rgb(9.02, 9.02, 11.3);
+    background-color: rgb(207, 232, 216);
+}
+
+.placar img {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+}

@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-header {
+    width: 100px;
+    height: 100px;
+}
+
+
+.header {
+    background-color: rgb(255, 0, 0);
+    margin-bottom: 50px;
+}
+
+.header-container {
+    margin: 20px;
+    background-color: black;
+    display: flex;
+}
+
+.menu-header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

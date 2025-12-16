@@ -1,53 +1,45 @@
-body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    background-color: #414553;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(111, 153, 153);
+    color: antiquewhite;
 }
 
-.announcement_bar {
-    text-align: center;
-    background-color: #21232a;
-    padding-top: 8px;
-    padding-bottom: 30px;
+.title{
+    text-shadow: 3px 3px 10px black;
 }
 
-.announcement_bar a{
-    color: #61dafb;
+.name {
+    text-shadow: 3px 3px 10px black;
 }
 
-
-.inner_menu {
-    background-color: #21232a;
-    padding-bottom: 10px;
-    
+a {
+    text-decoration: none;  
+    color: rgb(233, 233, 233);
 }
 
-.menu_logo {
-    text-decoration: none;
-    color: white;
+a:hover {
+    color: rgb(208, 208, 208);
 }
 
-.menu_logo:hover {
-    color: #61dafb;
+a:active {
+    color: rgb(96, 96, 209);
 }
 
-
-.menu_logo:active {
-    color: #61dafb;
+a:visited { 
+    color: rgb(182, 182, 182);
 }
 
-
-.menu_logo img{
-    height: 37px;   
+.title img{
+    height: 60px;   
     width: auto;
     vertical-align: middle;
     margin-right: 5px;
 }
-
-.menu-items li a{
-    color: white;
+.warning{
+    color: rgb(221, 30, 30);
+    font-size: 12px;
 }
-
-.center-container {
-    position: middle;
+.github {
+    font-size: 12px;
+    text-decoration: none;
 }
